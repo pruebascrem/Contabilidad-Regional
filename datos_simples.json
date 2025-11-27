@@ -1,0 +1,37 @@
+[
+    {
+        "region": "Región A",
+        "pib_millones": "15,800",
+        "pib_per_capita": "21,500",
+        "crecimiento": "2.1",
+        "ano_base": "2023"
+    },
+    {
+        "region": "Región B",
+        "pib_millones": "45,120",
+        "pib_per_capita": "24,350",
+        "crecimiento": "1.8",
+        "ano_base": "2023"
+    },
+    {
+        "region": "Región C",
+        "pib_millones": "9,750",
+        "pib_per_capita": "19,900",
+        "crecimiento": "3.5",
+        "ano_base": "2023"
+    },
+    {
+        "region": "Región D",
+        "pib_millones": "28,400",
+        "pib_per_capita": "26,100",
+        "crecimiento": "1.2",
+        "ano_base": "2023"
+    },
+    {
+        "region": "Región E",
+        "pib_millones": "82,990",
+        "pib_per_capita": "25,750",
+        "crecimiento": "0.9",
+        "ano_base": "2023"
+    }
+]
