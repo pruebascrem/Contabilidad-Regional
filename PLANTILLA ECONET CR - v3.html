@@ -7,25 +7,27 @@
     <style>
 	
 		h1 {
-            font-size: 18px;
+            font-size: 17px;
 			color: #5e5e5e;
         }
 		h2 {
 			font-size: 15px;
 			color: #5e5e5e;
 		}
-        body, p {
+        body {
             font-family: Open Sans, Arial, sans-serif;
-            padding: 12px;
+            padding: 20px;
 			color: #6e6e6e;
 			<!--text-indent: 1.25cm;-->
             line-height: 1.6;
-			font-size: 12px;
+			font-size: 13px;
 			text-align: justify;
         }
         .contenido-principal {
             background-color: #ffffff;
 			text-align: justify;
+			line-height: 1.6;
+			font-size: 13px;
 			<!--padding: 30px;-->
             <!--border-radius: 8px;-->
             <!--box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);-->
@@ -37,10 +39,12 @@
             padding: 20px;
             margin: 10px 0;
             border-left: 5px solid #001a5f;
+			line-height: 1.6;
+			font-size: 13px;
         }
         .grafica {
             float: left; 
-            margin: -20px 20px 20px 20px; /* Margen alto, derecho, abajo e izquierda */
+            margin: 10px 20px 20px 20px; /* Margen alto, derecho, abajo e izquierda */
             width: 60%;
             height: 400px;
 			box-shadow: 0px 0px 0px rgb(200, 200, 200);
@@ -48,7 +52,7 @@
         }
         .tabla-seccion {
 			background-color: #ffffff;
-            margin: 20px 20px 20px 20px;
+            margin: 0px 0px 20px 20px; /* Margen alto, derecho, abajo e izquierda */
             overflow: auto;
 			text-indent: 0cm;
 			float: right;
@@ -119,8 +123,11 @@
 	
 	<p>
 		La Contabilidad Regional de España es una estadística estructural que tiene por objetivo ofrecer una descripción cuantificada, sistemática y comparable de la actividad económica de las diferentes regiones españolas.
+	</p>
+	
+	<p>
 		Su principal indicador es el Producto Interior Bruto (PIB), que mide el valor de la producción total de bienes y servicios en una economía a través de sus unidades de producción residentes.
-		En la evolución del PIB influyen diversos factores y variables, dos de ellos son la productividad y las horas trabajadas, pues el producto de ambas da como resultado el valor del PIB.
+		La productividad y las horas trabajadas son dos factores clave del PIB, ya que este último se descompone en el producto de los 2 primeros.
 	</p>
 	
 	<iframe class="grafica" 
@@ -128,18 +135,21 @@
         title="Gráfica de Contabilidad Regional">
     </iframe>
 	
+	<br><br><br>
+	
+	<p>
+		Para aislar la influencia que tiene la variación de precios en la evolución de una magnitud económica, se emplea el concepto de valoración a precios constantes, que
+		consiste en valorar flujos y stocks de un ejercicio contable a los precios vigentes en un ejercicio anterior.
+	</p>
+	
+	
+	<p>
+		Para analizar la evolución del PIB por habitante de una economía se emplea el concepto de PIB per cápita y, para llevar el análisis a un nivel superior y realizar comparaciones internacionales,
+		se requiere del concepto de paridad de poder adquisitivo (PPA) para expresarlo en una moneda artificial que elimina las diferencias entre divisas y niveles
+		de precios de las zonas geográficas a comparar.
+    </p>
 	
 	<br><br><br><br><br>
-	Para aislar la influencia que tiene la variación de precios en la evolución de una magnitud económica, se emplea el concepto de valoración a precios constantes y
-	consiste en valorar flujos y stocks de un ejercicio contable a los precios vigentes en un ejercicio anterior.
-	
-	<br><br>
-	
-	Para analizar la evolución del PIB por habitante de una economía se emplea el concepto de PIB per cápita y, para llevar el análisis a un nivel superior y realizar comparaciones internacionales,
-	se requiere del concepto de paridad de poder adquisitivo (PPA) para expresarlo en una moneda artificial que elimina las diferencias de divisas y niveles
-	de precios entre las zonas geográficas a comparar.
-    
-	<br><br><br><br><br><br><br>
 </div>
 
 <div class="acceso-tablas">
